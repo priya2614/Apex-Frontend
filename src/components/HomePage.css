@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/play-pokemon/play-pokemon-arena-02.jpg'); /* Replace with the actual URL of the Pokémon background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home-css {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.trainer {
+  font-size: 2.5em;
+  color: blue; /* Pokémon red color */
+  text-shadow: 3px 3px yellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 800;
+}
+
+select {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 2px solid #000;
+  background-color: #f8f8f8;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue; /* Pokémon yellow color */
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff9900; /* Darker yellow on hover */
+}
+.owners{
+  color: #ff9900;
+  text-shadow: 3px 3px 2px black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 800;
+}
